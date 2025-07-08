@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Cyber Graf — Cybersecurity in my favorites mode.</title>
+
+  <!-- Open Graph meta -->
+  <meta property="og:title" content="Cyber Graf — Cybersecurity in my favorites mode." />
+  <meta property="og:description" content="Open detection rules, adversary simulation, and threat analysis." />
+  <meta property="og:image" content="https://cyber-graf.github.io/Cyber-Graf/cyber_graf_logo.jpg" />
+  <meta property="og:url" content="https://cyber-graf.github.io/Cyber-Graf/" />
+
+  <style>
+    body {
+      margin: 0;
+      padding: 0;
+      font-family: 'Segoe UI', sans-serif;
+      background: #0d1117;
+      color: #c9d1d9;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      min-height: 100vh;
+      text-align: center;
+      padding: 2rem;
+    }
+
+    img.logo {
+      max-width: 180px;
+      margin-bottom: 1.5rem;
+      border-radius: 1rem;
+      box-shadow: 0 0 15px rgba(0, 255, 255, 0.2);
+    }
+
+    h1 {
+      font-size: 2.2rem;
+      margin-bottom: 0.5rem;
+    }
+
+    p {
+      font-size: 1.1rem;
+      max-width: 600px;
+      margin-bottom: 2rem;
+    }
+
+    .buttons {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      gap: 1rem;
+    }
+
+    .button {
+      display: flex;
+      align-items: center;
+      gap: 0.5rem;
+      padding: 0.7rem 1.2rem;
+      border-radius: 6px;
+      font-weight: bold;
+      font-size: 1rem;
+      text-decoration: none;
+      transition: background 0.3s ease, transform 0.2s ease;
+      box-shadow: 0 0 0 transparent;
+    }
+
+    .button:hover {
+      transform: translateY(-2px);
+      box-shadow: 0 6px 16px rgba(0, 0, 0, 0.3);
+    }
+
+    .github {
+      background-color: #238636;
+      color: #fff;
+    }
+
+    .github:hover {
+      background-color: #2ea043;
+    }
+
+    .telegram {
+      background-color: #229ED9;
+      color: #fff;
+    }
+
+    .telegram:hover {
+      background-color: #1c91cc;
+    }
+
+    svg {
+      width: 20px;
+      height: 20px;
+      vertical-align: middle;
+      fill: currentColor;
+    }
+
+    @media (max-width: 600px) {
+      h1 { font-size: 1.6rem; }
+      p { font-size: 1rem; }
+    }
+  </style>
+</head>
+<body>
+  <img class="logo" src="cyber_graf_logo.jpg" alt="Cyber Graf Logo" />
+
+  <h1>Cyber Graf</h1>
+  <p> Cybersecurity in my favorites mode.</p>
+
+  <div class="buttons">
+    <a class="button github" href="https://github.com/Cyber-Graf/yara-sigma-rules" target="_blank">
+      <svg viewBox="0 0 16 16" aria-hidden="true">
+        <path d="M8 0C3.58 0 0 3.58 0 8c0 3.54..."></path>
+      </svg>
+      YARA & SIGMA Rules
+    </a>
+    <a class="button telegram" href="https://t.me/cybergraf" target="_blank">
+      <svg viewBox="0 0 240 240" xmlns="http://www.w3.org/2000/svg">
+        <path d="M120 0C53.7 0 0 53.7 0 120s53.7 120 120 120..." />
+      </svg>
+      Telegram @CyberGraf
+    </a>
+  </div>
+</body>
+</html>
