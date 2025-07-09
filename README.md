@@ -1,4 +1,4 @@
-![project_logo](/cyber_graf_logo.jpg)
+![project_logo](/docs/cyber_graf_logo.jpg)
 
 ## 📬 Contacts
 
