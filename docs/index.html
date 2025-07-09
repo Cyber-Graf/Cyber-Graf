@@ -10,10 +10,6 @@
   <meta property="og:description" content="Open detection rules, adversary simulation, and threat analysis." />
   <meta property="og:image" content="https://cyber-graf.github.io/Cyber-Graf/cyber_graf_logo.jpg" />
   <meta property="og:url" content="https://cyber-graf.github.io/Cyber-Graf/" />
-  <meta name="twitter:card" content="summary_large_image" />
-
-  <!-- GitHub + Telegram SVG icons -->
-  <script src="https://kit.fontawesome.com/a2d9d6a08f.js" crossorigin="anonymous"></script>
 
   <style>
     body {
@@ -92,6 +88,13 @@
       background-color: #1c91cc;
     }
 
+    svg {
+      width: 20px;
+      height: 20px;
+      vertical-align: middle;
+      fill: currentColor;
+    }
+
     @media (max-width: 600px) {
       h1 { font-size: 1.6rem; }
       p { font-size: 1rem; }
@@ -106,10 +109,16 @@
 
   <div class="buttons">
     <a class="button github" href="https://github.com/Cyber-Graf/yara-sigma-rules" target="_blank">
-      <i class="fab fa-github"></i> YARA & SIGMA Rules
+      <svg viewBox="0 0 16 16" aria-hidden="true">
+        <path d="M8 0C3.58 0 0 3.58 0 8c0 3.54..."></path>
+      </svg>
+      YARA & SIGMA Rules
     </a>
     <a class="button telegram" href="https://t.me/cybergraf" target="_blank">
-      <i class="fab fa-telegram-plane"></i> Telegram @CyberGraf
+      <svg viewBox="0 0 240 240" xmlns="http://www.w3.org/2000/svg">
+        <path d="M120 0C53.7 0 0 53.7 0 120s53.7 120 120 120..." />
+      </svg>
+      Telegram @CyberGraf
     </a>
   </div>
 </body>
